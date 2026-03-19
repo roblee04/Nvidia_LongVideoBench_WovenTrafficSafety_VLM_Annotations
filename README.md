@@ -3,7 +3,7 @@
 
 ![Project Header/Overview](image(1).png)
 
-## # Methods
+##  Methods
 Currently, this serves as a baseline VLM Annotation method. It provides a description of an accident or near-accident given a clip of the video (including bounding boxes).
 
 It utilizes:
@@ -11,7 +11,9 @@ It utilizes:
 * **YOLOv8 + DeepSORT:** For Bounding Box prediction and ReID.
 * **Accident Detection:** Triggered upon bounding box intercepts.
 
-## # Running
+\
+
+##  Running
 1.  Install dependencies:
     ```bash
     pip install -r requirements.txt
@@ -19,8 +21,9 @@ It utilizes:
 2.  Run the tracking module: `tracking.ipynb`
 3.  Run the analysis module: `video_understanding.ipynb`
 
----
+\
 
+# Deeper Dive
 
 ## VLM Technical Stack
 * **Model:** [Qwen 3 VL AWQ 35b Thinking](https://arxiv.org/abs/2511.21631)
