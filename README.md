@@ -11,7 +11,7 @@ It utilizes:
 * **YOLOv8 + DeepSORT:** For Bounding Box prediction and ReID.
 * **Accident Detection:** Triggered upon bounding box intercepts.
 
-
+<br>
 
 ##  Running
 1.  Install dependencies:
@@ -21,7 +21,7 @@ It utilizes:
 2.  Run the tracking module: `tracking.ipynb`
 3.  Run the analysis module: `video_understanding.ipynb`
 
-
+<br><br>
 
 # Deeper Dive
 
